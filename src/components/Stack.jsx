@@ -19,23 +19,52 @@ const Stack = () => {
 
     <div
       id='stack'
-      className="my-16 flex flex-col justify-center items-center">
-      <h2 className='my-10 text-3xl text-white'>
+      className="my-16 flex flex-col justify-center items-center
+      md:my-24 
+      ">
+      <h2 className='my-10 text-3xl text-white
+      sm:text-4xl
+      md:text-6xl md:mt-20
+      '>
         Stack
       </h2>
-      <div className="my-10 mb-20 gap-10 flex-wrap flex flex-row justify-center items-center w-auto h-auto">
+      <div className="my-10 mb-20 gap-10 flex-wrap flex flex-row justify-center items-center w-auto h-auto
+      md:gap-20 md:p-10
+      ">
 
-        <img className='w-14 h-14' src={django} alt="icone django" />
-        <img className='w-14 h-14' src={python} alt="icone python" />
-        <img className='w-14 h-14' src={react} alt="icone react" />
-        <img className='w-14 h-14' src={js} alt="icone js" />
-        <img className='w-14 h-14' src={node} alt="icone node" />
-        <img className='w-14 h-14' src={git} alt="icone git" />
-        <img className='w-14 h-14' src={vscode} alt="icone vscode" />
-        <img className='w-14 h-14' src={html} alt="icone html" />
-        <img className='w-14 h-14' src={css} alt="icone css" />
-        <img className='w-14 h-14' src={sass} alt="iconesass" />
-        <img className='w-14 h-14' src={tailwindcss} alt="icone tailwindcss" />
+        <img className='w-14 h-14
+        md:w-20 md:h-20 
+        ' src={django} alt="icone django" />
+        <img className='w-14 h-14
+        md:w-20 md:h-20 
+        ' src={python} alt="icone python" />
+        <img className='w-14 h-14
+        md:w-20 md:h-20 
+        ' src={react} alt="icone react" />
+        <img className='w-14 h-14
+        md:w-20 md:h-20 
+        ' src={js} alt="icone js" />
+        <img className='w-14 h-14
+        md:w-20 md:h-20 
+        ' src={node} alt="icone node" />
+        <img className='w-14 h-14
+        md:w-20 md:h-20 
+        ' src={git} alt="icone git" />
+        <img className='w-14 h-14
+        md:w-20 md:h-20 
+        ' src={vscode} alt="icone vscode" />
+        <img className='w-14 h-14
+        md:w-20 md:h-20 
+        ' src={html} alt="icone html" />
+        <img className='w-14 h-14
+        md:w-20 md:h-20 
+        ' src={css} alt="icone css" />
+        <img className='w-14 h-14
+        md:w-20 md:h-20 
+        ' src={sass} alt="iconesass" />
+        <img className='w-14 h-14
+        md:w-20 md:h-20 
+        ' src={tailwindcss} alt="icone tailwindcss" />
 
       </div>
     </div>
