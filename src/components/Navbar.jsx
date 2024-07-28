@@ -4,7 +4,6 @@ const Navbar = () => {
   return (
     <>
     <div className="text-white my-8 mb-6 flex flex-col justify-center items-center w-full
-
     md:w-[640px] md:text-3xl
     ">
       <h1 className='text-4xl py-4

@@ -9,7 +9,7 @@ function App() {
   return (
     <section
       className='scroll-smooth flex flex-col items-center justify-start w-full h-full bg-gray-700
-
+      
       '>
 
       <Navbar />
