@@ -1,6 +1,6 @@
 import React from 'react';
 
-import imgMoi from '../assets/images/moi.jpeg';
+import imgMoi from '../assets/images/moii.jpg';
 
 const Header = () => {
   return (
@@ -30,7 +30,7 @@ const Header = () => {
 
           <div className="flex flex-row justify-center items-center w-full">
             <img
-              className='w-48 h-48 rounded-full my-6
+              className='w-48 h-48 rounded-xl my-6
               sm:w-60 sm:h-60
               md:w-72 md:h-72 md:mt-10
               '
