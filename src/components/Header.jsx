@@ -1,6 +1,6 @@
 import React from 'react';
 
-import imgMoi from '../assets/images/moii.jpg';
+import imgMoi from '../assets/images/profil.jpg';
 
 const Header = () => {
   return (
