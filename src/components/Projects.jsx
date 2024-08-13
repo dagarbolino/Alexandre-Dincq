@@ -1,4 +1,5 @@
 import videoCVGen from '../assets/videos/cvgen.mp4';
+import videoInvoice from '../assets/videos/InvoiceNext.mp4';
 import videoKasa from '../assets/videos/kasa.mp4';
 import videoOhmyfood from '../assets/videos/ohmyfood.mp4';
 
@@ -18,6 +19,57 @@ const Projects = () => {
             md:text-6xl md:mt-20
           '>Projets</h2>
         </div>
+
+        <div className="">
+          <div className="
+            sm:flex sm:flex-row sm:justify-center sm:items-center sm:gap-10 sm:mt-10  
+            md:flex md:flex-row md:justify-center md:items-center md:gap-10 md:mt-20
+            ">
+            <div className="">
+              <h2 className='my-2 text-2xl text-white
+              sm:text-3xl
+              md:text-4xl md:mt-10
+            '>InvoiceNext</h2>
+
+              <p className='w-72 h-auto text-white text-sm my-6 flex flex-col justify-center items-center
+            sm:text-base
+            md:text-lg'>
+                Sur ce site web InvoiceNext, vous pourrez bénéficier de divers fonctionnalités. Comme la possibilité de créer une facture,
+                faire un inventaire, faire un rendement pour vous calculer une marge sur un produit
+                (exemple dans un rayon traditionnel boucherie faire le rendement d'une carcasse de boeuf),
+                enregistrer un suivi de traçabilité ou un suivi de nettoyage.
+              </p>
+            </div>
+
+
+            <div className=" my-6 flex flex-col justify-center items-center w-72 h-auto">
+              <video
+                width="600"
+                controls
+                muted
+                preload="auto">
+                <source src={videoInvoice} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+
+          <a
+            href="https://github.com/dagarbolino/invoice"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 underline
+            sm:mt-10 sm:text-base
+            md:mt-20 md:text-lg
+            ">
+            Voir le projet sur GitHub
+          </a>
+
+
+        </div>
+
+
+
 
 
 
@@ -79,7 +131,7 @@ const Projects = () => {
           <div className=" sm:flex sm:flex-row sm:justify-center sm:items-center sm:gap-10 sm:mt-10  
               md:flex md:flex-row md:justify-center md:items-center md:gap-10 md:mt-20">
             <div className="
-             ">
+            ">
 
               <h2 className='my-2 text-2xl text-white
                 sm:text-3xl
